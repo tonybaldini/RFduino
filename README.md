@@ -1,18 +1,20 @@
-Last Updated: 11/09/2013 07:30am
+Last Updated: 11/10/2013 07:00am
 
-### RFduino: Shrunk down an Arduino to the size of a finger-tip and made it Wireless.
+### RFduino: Shrunk down an Arduino to the size of a finger-tip and made it Wireless!
 
-![logo](https://raw.github.com/RFduino/RFduino/master/4up%20image.jpg)
+![logo](https://raw.github.com/RFduino/RFduino/master/4up%20image.jpg)  
+
+[Video](http://http://www.youtube.com/watch?v=arWBdGwCJcM)  
 
 ### Installation
 
 * Get the hardware here: [http://RFduino.com](http://RFduino.com)
 
-* Download Arduino 1.5.4 here: [http://arduino.cc](http://arduino.cc)
-  (on osx remember to open arduino first to make gatekeeper perform its magic
+* Download Arduino 1.5 here: [http://arduino.cc](http://arduino.cc/en/Main/Software)  
+  (on osx remember to open arduino first to make gatekeeper perform its magic)  
 
-* Integrate the RFduino directory from this repository
-  (on Windows, C:\arduino-1.5.4\hardware\arduino)
+* Copy the RFduino directory from this repository in Arduino  
+  (on Windows, C:\arduino-1.5.4\hardware\arduino)  
   (on OSX, /Applications/Arduino.app/Contents/Resources/Java.hardware/arduino)
 
 * Install the FTDI drivers from here: [http://ftdichip.com](http://www.ftdichip.com/Drivers/VCP.htm)
@@ -35,14 +37,12 @@ Detailed instructions are available here: [Quick Start Guide](http://files.rfdig
 
 * Down the iPhone example apps from the iPhone App Store (search for "RFduino").
 
-Detailed instructions for the Temperature app are available here: [Temperature App](http://files.rfdigital.com/rfduino.temperature.guide.pdf)
-Detailed instructions for the ColorWheel app are available here: [ColorWheel App](http://files.rfdigital.com/rfduino.rgb.colorwheel.guide.pdf)
+Detailed instructions for the Temperature app are available here: [Temperature App](http://files.rfdigital.com/rfduino.temperature.guide.pdf)  
+Detailed instructions for the ColorWheel app are available here: [ColorWheel App](http://files.rfdigital.com/rfduino.rgb.colorwheel.guide.pdf)  
 
 ### Communicating with us
 
-The best way to communiate with us is the RFduino Forum:
-
-[RFduino Forum](http://forum.RFduino.com)
+The best way to communiate with us is here: [RFduino Forum](http://forum.RFduino.com).
 
 ### A Lot More Coming!
 
