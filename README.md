@@ -2,7 +2,7 @@ Last Updated: 11/09/2013 07:30am
 
 ### RFduino: Shrunk down an Arduino to the size of a finger-tip and made it Wireless.
 
-![logo](https://github.com/RFduino/RFduino/blob/master/4up%20image.jpg)
+![logo](https://raw.github.com/RFduino/RFduino/master/4up%20image.jpg)
 
 ### Installation
 
