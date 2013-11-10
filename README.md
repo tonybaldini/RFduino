@@ -4,7 +4,7 @@ Last Updated: 11/10/2013 07:00am
 
 ![logo](https://raw.github.com/RFduino/RFduino/master/4up%20image.jpg)  
 
-[Video](http://http://www.youtube.com/watch?v=arWBdGwCJcM)  
+[Video](http://www.youtube.com/watch?v=arWBdGwCJcM)  
 
 ### Installation
 
