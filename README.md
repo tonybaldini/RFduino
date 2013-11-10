@@ -15,7 +15,7 @@ Last Updated: 11/10/2013 07:00am
 
 * Copy the RFduino directory from this repository in Arduino  
   (on Windows, C:\arduino-1.5.4\hardware\arduino)  
-  (on OSX, /Applications/Arduino.app/Contents/Resources/Java.hardware/arduino)
+  (on OSX, /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino)
 
 * Install the FTDI drivers from here: [http://ftdichip.com](http://www.ftdichip.com/Drivers/VCP.htm)
 
