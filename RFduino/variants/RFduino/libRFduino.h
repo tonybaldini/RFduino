@@ -106,7 +106,7 @@ uint32_t rfduino_ppi_channel_assign(uint8_t channel_num, const volatile void * e
 uint32_t rfduino_ppi_channel_unassign(uint8_t channel_num);
 
 uint32_t rfduino_nvic_enableirq(uint8_t irq_num);
-uint32_t rfduino_nvic_enableirq(uint8_t irq_num);
+uint32_t rfduino_nvic_disableirq(uint8_t irq_num);
 
 #ifdef __cplusplus
 }
