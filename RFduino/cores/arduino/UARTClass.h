@@ -52,9 +52,6 @@
 // Includes Atmel CMSIS
 #include <chip.h>
 
-#define UART_DEFAULT_RX_PIN		1
-#define UART_DEFAULT_TX_PIN		0
-
 typedef void Uart;
 
 class UARTClass : public HardwareSerial
