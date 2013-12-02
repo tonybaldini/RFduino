@@ -1,4 +1,4 @@
-Last Updated: 11/10/2013 07:00am
+Last Updated: 12/2/2013 03:00pm
 
 ### RFduino: Shrunk down an Arduino to the size of a finger-tip and made it Wireless!
 
@@ -16,6 +16,7 @@ Last Updated: 11/10/2013 07:00am
 * Copy the RFduino directory from this repository in Arduino  
   (on Windows, C:\arduino-1.5.4\hardware\arduino)  
   (on OSX, /Applications/Arduino.app/Contents/Resources/Java/hardware/arduino)
+  or "git clone https://github.com/RFduino/RFduino" in the directory indicated
 
 * Install the FTDI drivers from here: [http://ftdichip.com](http://www.ftdichip.com/Drivers/VCP.htm)
 
