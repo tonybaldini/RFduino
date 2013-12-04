@@ -48,6 +48,9 @@ public:
   // -20 dBm to +4 dBm - default +4 dBm
   int txPowerLevel;
 
+  // true if the radio is active (or about to become active), false if not
+  static volatile int& radioActive;
+
 public:
   RFduinoBLEClass();
 

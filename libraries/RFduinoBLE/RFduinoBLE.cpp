@@ -27,6 +27,8 @@
 #include "Arduino.h"
 #include "RFduinoBLE.h"
 
+volatile int& RFduinoBLEClass::radioActive = RFduinoBLE_radioActive;
+
 RFduinoBLEClass::RFduinoBLEClass()
 {
 	deviceName = "RFduino";
