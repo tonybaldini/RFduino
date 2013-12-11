@@ -12,7 +12,7 @@ RFduino.build.variant_system_lib=libRFduinoSystem.a
 #RFduino.build.vid=0x2341
 #RFduino.build.vid=0x003e
 
-RFduino.upload.tool=avrdude
+RFduino.upload.tool=RFDLoader
 
 # required to avoid arduino ide exception on upload
 RFduino.upload.protocol=

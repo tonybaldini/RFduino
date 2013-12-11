@@ -1,4 +1,4 @@
-Last Updated: 12/4/2013 03:30pm  
+Last Updated: 12/10/2013 07:00pm  
 (see CHANGELOG for details)
 
 ### RFduino: Shrunk down an Arduino to the size of a finger-tip and made it Wireless!

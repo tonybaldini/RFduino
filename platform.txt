@@ -55,20 +55,9 @@ recipe.size.regex=size=(.*)
 # RFduino Uploader tools
 # ----------------------
 
-#the ide is suppose to set {upload.verbose} to one of the setting below based on the upload verbose checkbox
-#tools.avrdude.upload.params.verbose=-v -v -v
-#tools.avrdude.upload.params.quiet=-q -q
-#verbose (declared in Uploader.java, called from Sketch.java) is never set, so its always false
-#app/src/processing/app/debug/BasicUploader.java:
-#  public boolean uploadUsingPreferences(String buildPath, String className, boolean usingProgrammer)
-#    verbose = Preferences.getBoolean("upload.verbose");
-
-tools.avrdude.cmd=avrdude
-tools.avrdude.cmd.windows=avrdude.exe
-tools.avrdude.path={runtime.ide.path}/hardware/arduino/RFduino
-tools.avrdude.config=avrdude.conf
-
-tools.avrdude.upload.params.verbose=-v -v -v
-tools.avrdude.upload.params.quiet=-q -q
-tools.avrdude.upload.args=-q -q
-tools.avrdude.upload.pattern="{path}/{cmd}" "-C{path}/{config}" {upload.args} -pRFduino -carduino -P{serial.port} -b115200 -D "-Uflash:w:{build.path}/{build.project_name}.hex:i"
+tools.RFDLoader.cmd=RFDLoader
+tools.RFDLoader.cmd.windows=RFDLoader.exe
+tools.RFDLoader.upload.params.verbose=
+tools.RFDLoader.upload.params.quiet=
+tools.RFDLoader.path={runtime.ide.path}/hardware/arduino/RFduino
+tools.RFDLoader.upload.pattern="{path}/{cmd}" -q {serial.port} "{build.path}/{build.project_name}.hex"
